@@ -11,10 +11,16 @@
 
 /* libs */
 @import "~bootstrap/scss/bootstrap-grid";
+@import "~animate.css";
 
 
 body {
-  font-family: 'Roboto', serif;
-  background-color: $green;
+  font-family: 'Gilroy', serif;
+  background-color: $body-background-color;
 }
 
+/* components */
+@import "components/logo";
+
+/* partials */
+@import "partials/home";

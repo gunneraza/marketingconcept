@@ -46,6 +46,10 @@ const config = function(env, args) {
           use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
         },
         {
+          test: /\.mp4$/,
+          use: 'file-loader?name=videos/[name].[ext]',
+        },
+        {
           test: /\.js$/,
           exclude: /(node_modules|bower_components)/,
           loader: 'babel-loader',
