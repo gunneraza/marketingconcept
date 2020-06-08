@@ -1,0 +1,20 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* libs */
+@import "~bootstrap/scss/bootstrap-grid";
+
+
+body {
+  font-family: 'Roboto', serif;
+  background-color: $green;
+}
+
