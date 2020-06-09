@@ -1,5 +1,6 @@
 import '../scss/app.scss';
 import Typed from 'typed.js/src/typed';
+import './tabs';
 
 var options = {
   strings: [`digital &amp; media agency`],

@@ -1,0 +1,35 @@
+.section-about {
+  width: 100%;
+  background-color: $blue;
+  margin-top: 100vh;
+  padding: 140px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 34px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.about-list {
+  color: #fff;
+  line-height: 2;
+  font-size: 20px;
+  list-style: initial;
+  font-weight: 300;
+}
+
+.about-img {
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 0.4;
+  position: absolute;
+  right: 80px;
+  bottom: 0px;
+}
