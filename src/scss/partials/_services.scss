@@ -94,9 +94,12 @@
     right: -120px;
 
     &__text {
-      background: #fff;
+      background: rgb(6,89,177);
+      background: linear-gradient(138deg, rgba(6,89,177,1) 51%, rgba(133,255,128,1) 100%);
       display: none;
       padding: 40px;
+      font-size: 20px;
+      color: #fff;
       width: 550px;
       box-shadow: 0px 6px 14px rgba(0,0,0,0.3);
     }
