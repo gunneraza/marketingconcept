@@ -27,39 +27,7 @@
   background-color: rgba(0,0,0,0.5);
 }
 
-.navigation {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
 
-  &__list {
-    display: flex;
-  }
-
-  &__item {
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-
-  &__link {
-    color: $white;
-    transition: 300ms ease;
-
-    &:hover {
-      color: $green;
-    }
-
-  }
-}
-
-.header {
-  position: absolute;
-  z-index: 99;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-}
 
 .home-info {
   position: absolute;
