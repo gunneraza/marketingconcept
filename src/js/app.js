@@ -3,6 +3,7 @@ import Typed from 'typed.js/src/typed';
 import './tabs';
 import './header';
 import './slider';
+import './reviews';
 
 var options = {
   strings: [`digital &amp; media agency`],
