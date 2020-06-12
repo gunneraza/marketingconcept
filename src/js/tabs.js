@@ -92,7 +92,7 @@ portfolioTab.forEach(element => {
     showContent(type, portfolioContent, portfolioSlider);
     packaging.update();
     naming.update();
-    branding.update(true);
     branding.autoplay.start();
+    branding.update();
   });
 })
