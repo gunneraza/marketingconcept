@@ -5,6 +5,10 @@
 
 .footer-nav {
 
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
+
   &__item {
 
     &:not(:last-child) {
@@ -27,6 +31,10 @@
 .footer-links {
   color: #fff;
   font-size: 16px;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
 }
 
 .footer-link {
@@ -60,12 +68,20 @@
     border-right: 1px solid #fff;
     padding-right: 4px;
     margin-right: 4px;
+
+    @media (max-width: 992px) {
+      margin-bottom: 20px;
+    }
   }
 }
 
 .development {
   display: flex;
   align-items: flex-end;
+
+  @media (max-width: 992px) {
+    margin-bottom: 20px;
+  }
 
   &__text {
     color: #fff;

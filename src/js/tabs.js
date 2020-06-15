@@ -83,16 +83,16 @@ var packaging = new Swiper('.packaging-slider', {
   }
 });
 
-
-portfolioTab.forEach(element => {
-  element.addEventListener('click', event => {
-    hideContent(portfolioContent, portfolioSlider, portfolioTab);
-    element.classList.add('active');
-    let type = element.getAttribute('data-type');
-    showContent(type, portfolioContent, portfolioSlider);
-    packaging.update();
-    naming.update();
-    branding.autoplay.start();
-    branding.update();
-  });
-})
+//
+// portfolioTab.forEach(element => {
+//   element.addEventListener('click', event => {
+//     hideContent(portfolioContent, portfolioSlider, portfolioTab);
+//     element.classList.add('active');
+//     let type = element.getAttribute('data-type');
+//     showContent(type, portfolioContent, portfolioSlider);
+//     packaging.update();
+//     naming.update();
+//     branding.autoplay.start();
+//     branding.update();
+//   });
+// })

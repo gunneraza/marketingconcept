@@ -7,7 +7,7 @@ window.addEventListener('load', event => {
 })
 
 
-window.addEventListener('mousewheel', event => {
+window.addEventListener('wheel', event => {
   if (event.pageY > winHeight) {
     header.classList.add('active');
   }
