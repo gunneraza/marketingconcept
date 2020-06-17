@@ -33,28 +33,3 @@ body {
 @import "partials/portfolio";
 @import "partials/reviews";
 @import "partials/footer";
-
-
-.test-logo {
-  width: 400px;
-  height: 700px;
-}
-
-.test-img {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  filter: grayscale(100%);
-  transition: 200ms ease;
-}
-
-
-.test-logo:hover {
-  .test-img {
-    filter: grayscale(0%);
-  }
-}
-
-

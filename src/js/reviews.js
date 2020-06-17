@@ -4,17 +4,26 @@ import Swiper from 'swiper';
 
 let reviews = new Swiper('.reviews-slider', {
   spaceBetween: 100,
-  speed: 3000,
+  speed: 1000,
   slidesPerView: 1,
+  pagination: {
+    el: '.reviews-pagination',
+    type: 'bullets',
+  },
+
+  navigation: {
+    nextEl: '.reviews-button-next',
+    prevEl: '.reviews-button-prev',
+  },
   loop: true,
   autoplay: {
     speed: 200,
-    delay: 2000
+    delay: 10000
   },
 
   breakpoints: {
     320: {
-      spaceBetween: 20
+      spaceBetween: 0
     }
   }
 });
