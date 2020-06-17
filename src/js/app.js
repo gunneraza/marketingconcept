@@ -27,4 +27,15 @@ window.addEventListener('load', event => {
 
 let scroll = new SmoothScroll('a[href*="#"]');
 
+let menu = document.querySelector('.mobile-navigation');
 
+menu.addEventListener('click', (event) => {
+  let target = event.target;
+  if (target.closest('.burger')) {
+    document.body.classList.toggle('menu-active')
+  }
+
+  if (target.tagName === 'A') {
+    document.body.classList.toggle('menu-active')
+  }
+})

@@ -36,7 +36,7 @@
   background-size: contain;
   padding: 20px;
   margin: 40px;
-  filter: grayscale(200%);
+  filter: opacity(0.5);
   transition: 300ms ease;
 
   @media (max-width: 576px) {

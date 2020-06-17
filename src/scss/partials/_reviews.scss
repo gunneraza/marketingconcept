@@ -6,6 +6,10 @@
   @media (max-width: 768px) {
     padding: 100px 0px;
   }
+
+  @media (max-width: 576px) {
+    padding-bottom: 0px;
+  }
 }
 
 .reviews-slider {
@@ -117,6 +121,10 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+
+  @media (max-width: 576px) {
+    display: none;
+  }
 
 
   .reviews-button-next {
