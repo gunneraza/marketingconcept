@@ -10,19 +10,30 @@ import './isotope';
 
 window.addEventListener('load', event => {
   document.body.classList.remove('preloader-active');
-  document.getElementById('video-bg').play();
+  let bgVideo = document.getElementById('video-bg');
+  let mainVideo = 'images/content/mc2.mp4';
+  let mobileVideo = 'images/content/bg.mp4';
+
+  if(screen.width > 500) {
+    bgVideo.setAttribute('src', 'images/content/mc2.mp4');
+  } else {
+    bgVideo.setAttribute('src', 'images/content/bg.mp4');
+  }
+
+
+  bgVideo.play();
 })
 
 
-//
-// let options = {
-//   strings: [`digital &amp; media agency`],
-//   typeSpeed: 100,
-//   showCursor: false,
-//   startDelay: 100
-// };
 
-// let typed = new Typed('.home-info__subtitle', options);
+let options = {
+  strings: [`digital &amp; media agency`],
+  typeSpeed: 100,
+  showCursor: false,
+  startDelay: 100
+};
+
+let typed = new Typed('.home-info__subtitle', options);
 
 
 let scroll = new SmoothScroll('a[href*="#"]');

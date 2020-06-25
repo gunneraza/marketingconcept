@@ -6,6 +6,7 @@
 .services-title {
   font-size: 70px;
   margin-bottom: 70px;
+  font-weight: 800;
 
   @media (max-width: 576px) {
     font-size: 60px;
@@ -82,7 +83,7 @@
 
   &-item.active {
     display: block;
-    animation: tabAnimation 1s;
+    animation: tabAnimation 1.2s;
   }
 
   &-img {
@@ -118,15 +119,24 @@
 
 
 @keyframes tabAnimation {
+  //from {
+  //  opacity: 0;
+  //  transform: translateX(-200px);
+  //}
+  //
+  //to {
+  //  opacity: 1;
+  //  transform: translateX(0px);
+  //}
+
   from {
-    opacity: 0;
-    transform: translateX(-200px);
+    transform: scale(0, 0);
   }
 
   to {
-    opacity: 1;
-    transform: translateX(0px);
+    transform: scale(1, 1);
   }
+
 }
 
 

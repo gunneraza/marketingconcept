@@ -11,6 +11,7 @@
   font-size: 70px;
   text-align:  center;
   color: #fff;
+  font-weight: 800;
 
   @media (max-width: 768px) {
     font-size: 50px;
@@ -36,7 +37,7 @@
   background-size: contain;
   padding: 20px;
   margin: 40px;
-  filter: opacity(0.5);
+  filter: grayscale(100%);
   transition: 300ms ease;
 
   @media (max-width: 576px) {
