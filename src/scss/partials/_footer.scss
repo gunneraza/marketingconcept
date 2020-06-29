@@ -1,6 +1,8 @@
 .footer {
   background-color: #94d600;
+
   padding: 100px 0px;
+  position: relative;
 }
 
 .footer-nav {
@@ -121,6 +123,32 @@
     svg {
       fill: #002B59;
     }
+  }
+}
+
+
+.footer__img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 500px;
+  height: 800px;
+  bottom: 0px;
+  left: 0px;
+
+  @media (max-width: 1400px) {
+    height: 600px;
+    width: 400px;
+  }
+
+  @media (max-width: 1200px) {
+    height: 490px;
+    width: 300px;
+  }
+
+  @media (max-width: 576px) {
+    display: none;
   }
 }
 
