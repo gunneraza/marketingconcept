@@ -9,7 +9,19 @@ import './isotope';
 
 
 window.addEventListener('load', event => {
-  document.body.classList.remove('preloader-active');
+
+  setTimeout(() => {
+    document.getElementById('ctn-preloader').classList.add('loaded');
+    document.body.classList.remove('no-scroll-y');
+
+  }, 2000)
+
+  setTimeout(() => {
+    document.getElementById('ctn-preloader').style.display = 'none';
+  },2700)
+
+
+
   let bgVideo = document.getElementById('video-bg');
   let mainVideo = 'images/content/mc2.mp4';
   let mobileVideo = 'images/content/bg.mp4';
